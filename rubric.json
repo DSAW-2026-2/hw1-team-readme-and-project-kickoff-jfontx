@@ -1,0 +1,32 @@
+{
+  "name": "HW01 — Team README & Project Kickoff",
+  "homeworkNumber": 1,
+  "structure": {
+    "maxPoints": 20,
+    "requiredFiles": [
+      { "path": "README.md", "description": "Problem statement, user stories, and team roles", "points": 10 },
+      { "path": "index.html", "description": "GitHub Pages landing page", "points": 6 },
+      { "path": "figma-link.txt", "description": "Link to Figma wireframe sketch", "points": 4 }
+    ],
+    "requiredFolders": []
+  },
+  "quality": {
+    "maxPoints": 20,
+    "checks": ["htmlhint"]
+  },
+  "deployment": {
+    "maxPoints": 20,
+    "type": "github-pages"
+  },
+  "acceptance": {
+    "maxPoints": 40,
+    "sourcePaths": ["README.md", "index.html", "figma-link.txt"],
+    "criteria": [
+      "The README includes a clear problem statement describing a specific, real-world problem",
+      "The README explicitly justifies why a web app is the right solution — explains why a spreadsheet, existing tool, or mobile-only app would NOT be sufficient",
+      "At least 3 user stories are written in the format: 'As a [user type], I want to [action] so that [benefit]'",
+      "Team roles are defined and assigned to specific named team members",
+      "figma-link.txt contains a valid URL to a Figma file or image with a wireframe sketch of at least one screen"
+    ]
+  }
+}
